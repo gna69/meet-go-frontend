@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from "./Slider";
 
 function MainContent() {
     return (
@@ -7,7 +8,7 @@ function MainContent() {
                 backgroundColor: "#506287",
                 height: 500
             }} />
-            <div> Здесь должны быть слайды с картинками </div>
+            <Slider />
             <button> Войти </button>
         </div>
     )
