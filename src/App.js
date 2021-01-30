@@ -5,7 +5,7 @@ import MainPage from './app/LoginPage';
 function App() {
   return (
     <BrowserRouter>
-        <Route path="/login" component={MainPage} />
+        <Route path="/" component={MainPage} />
     </BrowserRouter>
   );
 }
