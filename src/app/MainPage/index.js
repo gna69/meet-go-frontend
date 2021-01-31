@@ -1,6 +1,6 @@
 import React from 'react';
 import LogoutHeader from '../headers/LogoutHeader';
-import MainContent from './components/MainContent';
+import MainContent from './components/MainContent/';
 
 function MainPage () {
 

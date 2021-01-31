@@ -32,14 +32,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="628ad73e-0ee1-4f29-bd95-ec5ddbb3757a" name="Default Changelist" comment="Рефакторинг неавторизированного header'a">
-      <change afterPath="$PROJECT_DIR$/src/app/MainPage/components/Slider/index.js" afterDir="false" />
+    <list default="true" id="628ad73e-0ee1-4f29-bd95-ec5ddbb3757a" name="Default Changelist" comment="Попытка найти норм слайдер (не удачная)">
+      <change afterPath="$PROJECT_DIR$/src/app/MainPage/components/MainContent/Slider/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/MainPage/components/MainContent/Slider/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/MainPage/components/MainContent/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/MainPage/components/MainContent/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/headers/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/LoginPage/components/MainContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/MainPage/components/MainContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/LoginPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/MainPage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/MainPage/components/MainContent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/MainPage/components/Slider/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/MainPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/MainPage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/headers/LogoutHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/headers/LogoutHeader.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +53,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -75,6 +80,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,6 +90,13 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="ts.external.directory.path" value="D:\WebStorm\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\NodejsProj\meet-go-frontend\src\app\MainPage\components\MainContent" />
+      <recent name="D:\NodejsProj\meet-go-frontend\src\app\MainPage\components\index" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -112,7 +125,8 @@
       <option name="presentableId" value="Default" />
       <updated>1595144254856</updated>
       <workItem from="1595144256863" duration="919000" />
-      <workItem from="1612039525499" duration="4324000" />
+      <workItem from="1612039525499" duration="4422000" />
+      <workItem from="1612084566231" duration="11913000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Empty project.">
       <created>1595145108083</created>
@@ -128,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612040355261</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Попытка найти норм слайдер (не удачная)">
+      <created>1612043918461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612043918461</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,48 +165,51 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit. Empty project." />
     <MESSAGE value="Рефакторинг неавторизированного header'a" />
-    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг неавторизированного header'a" />
+    <MESSAGE value="Попытка найти норм слайдер (не удачная)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Попытка найти норм слайдер (не удачная)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2748" y="412" key="#ESLint" timestamp="1612040868320">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2748" y="412" key="#ESLint/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612040868320" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1612043166662">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1612085792580">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612040740283" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612043166662" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1612043166662">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612085792580" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1612085792579">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612040740283" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612043166662" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1612043166662">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612085792579" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1612085792579">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612040740282" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612043166662" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1612043166662">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612085792579" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1612085792579">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612040740283" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612043166662" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612040358548">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612085792579" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612043935902">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612040358548" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612043935902" />
     <state x="2536" y="240" key="run.anything.popup" timestamp="1612041024663">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612041024663" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612040909275">
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612123152277">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612040909275" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612123152277" />
   </component>
 </project>
