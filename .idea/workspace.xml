@@ -32,18 +32,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="628ad73e-0ee1-4f29-bd95-ec5ddbb3757a" name="Default Changelist" comment="Попытка найти норм слайдер (не удачная)">
-      <change afterPath="$PROJECT_DIR$/src/app/MainPage/components/MainContent/Slider/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/MainPage/components/MainContent/Slider/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/MainPage/components/MainContent/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/MainPage/components/MainContent/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/headers/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/MainPage/components/MainContent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/MainPage/components/Slider/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/MainPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/MainPage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/headers/LogoutHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/headers/LogoutHeader.js" afterDir="false" />
+    <list default="true" id="628ad73e-0ee1-4f29-bd95-ec5ddbb3757a" name="Default Changelist" comment="Сверстал главную страницу">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +116,7 @@
       <updated>1595144254856</updated>
       <workItem from="1595144256863" duration="919000" />
       <workItem from="1612039525499" duration="4422000" />
-      <workItem from="1612084566231" duration="11913000" />
+      <workItem from="1612084566231" duration="12021000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Empty project.">
       <created>1595145108083</created>
@@ -149,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612043918461</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Сверстал главную страницу">
+      <created>1612123699668</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612123699668</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +168,8 @@
     <MESSAGE value="Initial commit. Empty project." />
     <MESSAGE value="Рефакторинг неавторизированного header'a" />
     <MESSAGE value="Попытка найти норм слайдер (не удачная)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Попытка найти норм слайдер (не удачная)" />
+    <MESSAGE value="Сверстал главную страницу" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сверстал главную страницу" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2748" y="412" key="#ESLint" timestamp="1612040868320">
@@ -198,11 +196,11 @@
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612040740283" />
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612085792579" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612043935902">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612123709500">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612040358548" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612043935902" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612123709500" />
     <state x="2536" y="240" key="run.anything.popup" timestamp="1612041024663">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
